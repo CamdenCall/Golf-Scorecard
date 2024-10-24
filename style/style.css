@@ -1,0 +1,13 @@
+table {
+  background-color: black;
+}
+table th {
+  padding: 10px;
+}
+table tr {
+  background-color: white;
+  padding: 15px;
+}
+table tr td {
+  padding: 5px 15px;
+}/*# sourceMappingURL=style.css.map */

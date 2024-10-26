@@ -1,13 +1,21 @@
 table {
-  background-color: black;
+  background-color: grey;
+  border: 1px solid black;
 }
 table th {
   padding: 10px;
+  border: 1px solid black;
 }
 table tr {
   background-color: white;
   padding: 15px;
+  border: 1px solid black;
 }
 table tr td {
   padding: 5px 15px;
+  border: 1px solid black;
+}
+table tr input {
+  border: none;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */

@@ -8,78 +8,75 @@
     <script src="js/index.js" defer></script>
 </head>
 <body>
-    <table id="scorecard">
-        <thead>
-            <tr>
-                <th></th>
-                <th colspan="9">Out</th>
-                <th colspan="9">In</th>
-                <th>Out Score</th>
-                <th>In Score</th>
-                <th>Total Score</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr id="hole-info">
-                <td>Hole</td>
-                <!-- Holes 1-18 -->
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-                <td>11</td>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-                <td>16</td>
-                <td>17</td>
-                <td>18</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr id="yardage">
-                <td>Yardage</td>
-            </tr>
-            <tr id="handicap">
-                <td>Handicap</td>
-                
-            </tr>
-            <tr id="par">
-                <td>Par</td>
-            </tr>
-            <tr id="playerOne">
-                <td>Player One</td>
-                <td><input type="text" placeholder="0"></td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-                <td>11</td>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-                <td>16</td>
-                <td>17</td>
-                <td>18</td>
-            </tr>
-            <tr id="playerTwo">
-                <td>Player Two</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="table">
+        <div class="left">
+            <div class="row">
+                <div class="col name">Hole</div>
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+                <div class="col">13</div>
+                <div class="col">14</div>
+                <div class="col">15</div>
+                <div class="col">16</div>
+                <div class="col">17</div>
+                <div class="col">18</div>
+            </div>
+            <div class="row" id="yardage">
+                <div class="col name">Yardage</div>
+            
+            </div>
+            <div class="row" id="handicap">
+                <div class="col name">Handicap</div>
+            
+            </div>
+            <div class="row" id="par">
+                <div class="col name">Par</div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text" placeholder="Player One" id="playerOne">
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text" placeholder="Player Two" id="playerTwo">
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text" placeholder="Player Three" id="playerThree">
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text" placeholder="Player Four" id="playerFour">
+                </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="row">
+                <div class="col">In</div>
+                <div class="col">Out</div>
+                <div class="col">Total</div>
+            </div>
+            <div class="col"></div>
+
+        </div>
+
+
+
+
+    </div>
 </body>
 </html>

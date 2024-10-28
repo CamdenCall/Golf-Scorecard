@@ -1,21 +1,55 @@
-table {
-  background-color: grey;
-  border: 1px solid black;
+.table {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
 }
-table th {
-  padding: 10px;
-  border: 1px solid black;
+.table .right {
+  flex: 2;
 }
-table tr {
-  background-color: white;
-  padding: 15px;
-  border: 1px solid black;
+.table .left {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-table tr td {
-  padding: 5px 15px;
-  border: 1px solid black;
+.table .row {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 150px;
 }
-table tr input {
+.table .col {
+  padding: 10px 0px;
+  min-width: 50px;
+  text-align: center;
+  border: 1px solid black;
+  flex: 1;
+}
+.table .player {
+  display: flex;
+  max-width: 100%;
+}
+.table .player .score {
+  padding: 10px 10px;
+  display: flex;
+}
+.table .player .score input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.table .player .playername {
+  flex: 1;
+}
+.table .name {
+  min-width: 100px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.table .name input {
+  width: 100%;
   border: none;
   outline: none;
 }/*# sourceMappingURL=style.css.map */

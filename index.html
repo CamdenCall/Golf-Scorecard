@@ -8,6 +8,15 @@
     <script src="js/index.js" defer></script>
 </head>
 <body>
+    <div class="tee">
+        <p>Select Tee</p>
+        <select id="tee">
+            <option value="mens">Mens</option>
+            <option value="womens">Womens</option>
+            <option value="pro">Pro</option>
+            <option value="champion">Champion</option>
+        </select>
+    </div>
     <div class="table">
         <div class="left">
             <div class="row">
@@ -31,6 +40,26 @@
                 <div class="col">17</div>
                 <div class="col">18</div>
             </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text" class="player-name" placeholder="Player One" id="playerOne">
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text"  class="player-name" placeholder="Player Two" id="playerTwo">
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text"  class="player-name" placeholder="Player Three" id="playerThree">
+                </div>
+            </div>
+            <div class="row player">
+                <div class="col name">
+                    <input type="text"  class="player-name" placeholder="Player Four" id="playerFour">
+                </div>
+            </div>
             <div class="row" id="yardage">
                 <div class="col name">Yardage</div>
             
@@ -42,26 +71,6 @@
             <div class="row" id="par">
                 <div class="col name">Par</div>
             </div>
-            <div class="row player">
-                <div class="col name">
-                    <input type="text" placeholder="Player One" id="playerOne">
-                </div>
-            </div>
-            <div class="row player">
-                <div class="col name">
-                    <input type="text" placeholder="Player Two" id="playerTwo">
-                </div>
-            </div>
-            <div class="row player">
-                <div class="col name">
-                    <input type="text" placeholder="Player Three" id="playerThree">
-                </div>
-            </div>
-            <div class="row player">
-                <div class="col name">
-                    <input type="text" placeholder="Player Four" id="playerFour">
-                </div>
-            </div>
 
         </div>
         <div class="right">
@@ -70,8 +79,50 @@
                 <div class="col">Out</div>
                 <div class="col">Total</div>
             </div>
-            <div class="col"></div>
-
+            <div class="row">
+                <div class="col">
+                    <div id="oneIn">0</div>
+                </div>
+                <div class="col">
+                    <div id="oneOut">0</div>
+                </div>
+                <div class="col">
+                    <div id="oneTotal">0</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="twoIn">0</div>
+                </div>
+                <div class="col">
+                    <div id="twoOut">0</div>
+                </div>
+                <div class="col">
+                    <div id="twoTotal">0</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="threeIn">0</div>
+                </div>
+                <div class="col">
+                    <div id="threeOut">0</div>
+                </div>
+                <div class="col">
+                    <div id="threeTotal">0</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="fourIn">0</div>
+                </div>
+                <div class="col">
+                    <div id="fourOut">0</div>
+                </div>
+                <div class="col">
+                    <div id="fourTotal">0</div>
+                </div>
+            </div>
         </div>
 
 
